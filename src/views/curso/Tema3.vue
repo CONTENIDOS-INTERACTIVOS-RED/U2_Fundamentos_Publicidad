@@ -50,7 +50,7 @@
           p(data-aos="fade-left") Kotler (2024), en su libro “Marketing empresarial: más allá del profesionalismo, hacia la creatividad, el liderazgo y la sostenibilidad”, indica que el mercado es: 
           .bloque-texto-c.bg-color-6.p-4.mb-3(data-aos="fade-left")
             i.fas.fa-quote-left
-            h3.mb-2 “como una disciplina que va más allá de la simple venta de productos o servicios. Según Kotler, el marketing es un proceso integral que implica la identificación y satisfacción de las necesidades y deseos de los consumidores, creando valor para ellos y estableciendo relaciones duraderas. Este enfoque destaca la importancia de la creatividad, el liderazgo y la sostenibilidad en las estrategias de marketing, adaptándose a un entorno empresarial en constante evolución”. 
+            h3.mb-2 “Como una disciplina que va más allá de la simple venta de productos o servicios. Según Kotler, el marketing es un proceso integral que implica la identificación y satisfacción de las necesidades y deseos de los consumidores, creando valor para ellos y estableciendo relaciones duraderas. Este enfoque destaca la importancia de la creatividad, el liderazgo y la sostenibilidad en las estrategias de marketing, adaptándose a un entorno empresarial en constante evolución”. 
             span -  Kotler
           p(data-aos="fade-left") Un mercado objetivo bien definido es crucial para diseñar mensajes efectivos. Medina (2016), señala que se deben considerar dos aspectos claves:
 
@@ -317,7 +317,7 @@
           p Las campañas publicitarias se enfrentan a factores inesperados que pueden afectar el desempeño, como cambios en el comportamiento del público, errores en la segmentación o un bajo rendimiento de los mensajes. La optimización de dichas campañas permite:
           .py-4.px-5.bg-color-3(data-aos="fade-right").mb-3
             ul.lista-ul
-              li.mb-4
+              li.mb-2
                 i.fas.fa-check-circle
                 | Mejorar la rentabilidad de la inversión publicitaria (ROI).
               li.mb-2
