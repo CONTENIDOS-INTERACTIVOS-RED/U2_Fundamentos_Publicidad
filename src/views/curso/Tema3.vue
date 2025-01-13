@@ -1,10 +1,26 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Diferencia entre marketing tradicional y digital'")
+    BannerInterno(:subTitulo="'3. Planificación estratégica y medios en publicidad'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-
+      p(data-aos="fade-left").mb-5 En esta primera parte, conoceremos los conceptos básicos de la publicidad y sus principales objetivos.
   
+
+      #t_3_1.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.1] Definición de objetivos y segmentación
+  
+
+      .row.mb-5
+        .col-lg-8
+          .bg-color-1.px-4.py-5(data-aos="fade-left").mb-4
+            p.mb-0 Según Medina (2016), los objetivos publicitarios establecen qué se quiere lograr con una campaña, sirviendo como guía para el desarrollo de estrategias y tácticas.
+          
+          p(data-aos="fade-left") Los objetivos, además, son una metodología para establecer metas claras y alcanzables; un ejemplo de esta metodología son los objetivos SMART, los cuales establecen que deben ser: 
+        .col-lg-4.d-none.d-sm-block
+          figure
+            img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mb-4.mb-lg-0
+
+            
 </template>
 
 <script>
