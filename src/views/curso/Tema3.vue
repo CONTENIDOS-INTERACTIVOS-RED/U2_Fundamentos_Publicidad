@@ -1,7 +1,7 @@
 <template lang="pug">
   .curso-main-container.pb-3
     BannerInterno(:subTitulo="'3. Planificación estratégica y medios en publicidad'")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+    .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.overflow-hidden
   
       p(data-aos="fade-left").mb-5 A continuación, estudiaremos los elementos en la planificación estratégica y los medios de publicidad.
   
@@ -445,7 +445,10 @@
             div(numero="4" titulo="Herramientas de heatmaps")
               p.mb-1 Plataformas como Hotjar permiten analizar el comportamiento de los usuarios en una página web, identificando áreas de interés y puntos de abandono.
 
-             
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
             
 </template>
 
@@ -467,29 +470,28 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              '¿Qué factor social afecta las decisiones basadas en roles dentro de una sociedad?',
+            texto: '¿Qué técnica creativa consiste en invertir suposiciones?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Percepción',
+                texto: 'Pensamiento lateral',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Roles sociales',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Motivación',
+                texto: 'Brainstorming',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Técnicas de inversión',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Estilo de vida',
+                texto: 'Publicidad Programática',
                 esCorrecta: false,
               },
             ],
@@ -499,28 +501,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Qué estrategia ayuda a las empresas a adaptarse rápidamente a las demandas del mercado?',
+              '¿Cuál es la función del departamento de cuentas en una agencia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Segmentación en tiempo real',
-                esCorrecta: true,
-              },
-              {
-                id: 'b',
-                texto: 'Producción masiva',
+                texto: 'Ejecutar campañas',
                 esCorrecta: false,
               },
               {
+                id: 'b',
+                texto: 'Intermediación entre agencia y cliente',
+                esCorrecta: true,
+              },
+              {
                 id: 'c',
-                texto: 'Publicidad genérica',
+                texto: 'Crear conceptos creativos',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Encuestas tradicionales',
+                texto: 'Segmentar, buscando el público objetivo',
                 esCorrecta: false,
               },
             ],
@@ -530,28 +532,28 @@ export default {
           {
             id: 3,
             texto:
-              '¿Qué etapa del proceso de decisión del consumidor implica evaluar opciones?',
+              '¿Qué técnica fomenta la creatividad a través de ideas sin filtro?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Reconocimiento del problema',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Evaluación de alternativas',
+                texto: 'Brainstorming',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Mapas mentales',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Decisión de compra',
+                texto: 'SCAMPER',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Comportamiento post-compra',
+                texto: 'PPC',
                 esCorrecta: false,
               },
             ],
@@ -561,28 +563,18 @@ export default {
           {
             id: 4,
             texto:
-              '¿Qué tipo de segmentación considera el clima y la densidad poblacional?',
+              'El briefing es un informe con información clave para una campaña.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Conductual',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Psicográfica',
-                esCorrecta: false,
-              },
-              {
-                id: 'c',
-                texto: 'Geográfica',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'd',
-                texto: 'Demográfica',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
@@ -592,28 +584,18 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué herramienta permite visualizar la posición de las marcas frente a sus competidores?',
+              'Las grandes redes de agencias son corporaciones con alcance global.',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Análisis predictivo',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Mapas de posicionamiento',
+                texto: 'Verdadero',
                 esCorrecta: true,
               },
               {
-                id: 'c',
-                texto: 'Publicidad en redes sociales',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Big data',
+                id: 'b',
+                texto: 'Falso',
                 esCorrecta: false,
               },
             ],
