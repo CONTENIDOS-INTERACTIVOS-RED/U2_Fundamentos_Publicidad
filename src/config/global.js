@@ -135,7 +135,7 @@ export default {
         'Organización que planifica, crea y ejecuta campañas publicitarias, para marcas y clientes.',
     },
     {
-      termino: 'Brief',
+      termino: '<em>Brief</em>',
       significado:
         'Documento guía que contiene información clave sobre los objetivos, el público y los mensajes de una campaña publicitaria.',
     },
