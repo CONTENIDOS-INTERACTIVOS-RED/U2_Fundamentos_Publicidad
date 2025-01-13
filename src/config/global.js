@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '2',
-    tituloUnidad: ' Comportamiento del consumidor y segmentación de mercados',
+    tituloUnidad: 'Estructura y procesos de la publicidad',
   },
   menuPrincipal: {
     menu: [
@@ -15,14 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Comportamiento del consumidor y segmentación de mercados',
+        titulo: 'Agencias de publicidad: roles y funciones',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Factores que influyen en el comportamiento del consumidor',
+            titulo: 'Estructura organizativa',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Agencias y marcas',
+            hash: 't_1_2',
           },
         ],
       },
@@ -30,25 +36,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Segmentación de mercados: criterios y métodos',
+        titulo:
+          'El proceso creativo publicitario: desde el briefing hasta la ejecución',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Criterios de segmentación',
+            titulo: 'El briefing publicitario',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Importancia de la segmentación de mercados',
+            titulo: 'Desarrollo del concepto creativo',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Métodos avanzados de segmentación',
+            titulo: 'Producción y ejecución',
             hash: 't_2_3',
           },
         ],
@@ -57,26 +64,25 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Identificación de mercados objetivo',
+        titulo: 'Planificación estratégica y medios en publicidad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Selección y priorización de mercados objetivo',
+            titulo: 'Definición de objetivos y segmentación',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo:
-              'Análisis de variables de rentabilidad, accesibilidad y crecimiento',
+            titulo: 'Selección de medios y canales',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Herramientas de análisis y posicionamiento',
+            titulo: 'Medición y evaluación',
             hash: 't_3_3',
           },
         ],
@@ -124,99 +130,99 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Análisis predictivo',
+      termino: 'Agencia',
       significado:
-        'Técnica que utiliza datos, algoritmos y aprendizaje automático, para prever comportamientos futuros.',
+        'Organización que planifica, crea y ejecuta campañas publicitarias, para marcas y clientes.',
     },
     {
-      termino: 'Big Data',
+      termino: 'Brief',
       significado:
-        'Conjunto de datos masivos y complejos que requieren herramientas avanzadas para su análisis y gestión.',
+        'Documento guía que contiene información clave sobre los objetivos, el público y los mensajes de una campaña publicitaria.',
     },
     {
-      termino: 'Clase social',
+      termino: 'Creatividad',
       significado:
-        'Nivel socioeconómico basado en ingresos, ocupación y educación, que influye en las decisiones de compra.',
+        'Capacidad para generar ideas originales y efectivas en la resolución de problemas o en la creación de mensajes publicitarios.',
     },
     {
-      termino: 'Comportamiento del consumidor',
+      termino: 'Estrategia',
       significado:
-        'Proceso mediante el cual las personas seleccionan, compran y usan bienes o servicios, para satisfacer necesidades.',
+        'Plan de acción diseñado para alcanzar objetivos específicos de manera efectiva.',
     },
     {
-      termino: 'Economía circular',
+      termino: 'Investigación de mercados',
       significado:
-        'Modelo que busca reducir, reutilizar y reciclar recursos, para minimizar el impacto ambiental.',
+        'Proceso de recopilar y analizar datos para entender el comportamiento, necesidades y preferencias del público objetivo.',
     },
     {
-      termino: 'Inteligencia Artificial (IA)',
+      termino: 'KPIs (Indicadores Claves de Desempeño)',
       significado:
-        'Tecnología que simula procesos humanos como aprendizaje y toma de decisiones, en sistemas computacionales.',
+        'Métricas utilizadas para medir el éxito de una campaña publicitaria.',
     },
     {
-      termino: 'Mapas de posicionamiento',
+      termino: 'Marca',
       significado:
-        'Herramientas visuales que representan la percepción del consumidor, sobre productos o marcas en relación con la competencia.',
+        'Identidad única de un producto, servicio o empresa que lo diferencia en el mercado.',
     },
     {
-      termino: 'Marketing 4.0',
+      termino: 'Medios digitales',
       significado:
-        'Enfoque que combina estrategias tradicionales y digitales, centrado en la experiencia del cliente y la conectividad.',
+        'Plataformas en línea, como redes sociales, buscadores y sitios web, utilizadas para difundir mensajes publicitarios.',
     },
     {
-      termino: 'Percepción',
+      termino: 'Medios tradicionales',
       significado:
-        'Proceso mental mediante el cual los consumidores interpretan estímulos externos como productos, marcas o mensajes publicitarios.',
+        'Canales publicitarios como televisión, radio y prensa, usados para llegar a grandes audiencias.',
     },
     {
-      termino: 'Psicografía',
+      termino: 'Mercado objetivo',
       significado:
-        'Segmentación basada en valores, estilo de vida y personalidad de los consumidores.',
+        'Segmento de consumidores con características comunes, que una marca busca alcanzar.',
     },
     {
-      termino: 'Responsabilidad Social Corporativa (RSC)',
+      termino: 'Pieza creativa',
       significado:
-        'Prácticas empresariales que integran objetivos sociales y ambientales, en su operación y estrategias.',
+        'Elemento visual, escrito o audiovisual diseñado para transmitir un mensaje publicitario.',
     },
     {
-      termino: 'Segmentación conductual',
+      termino: 'Posicionamiento',
       significado:
-        'Clasificación de consumidores, según su comportamiento, como frecuencia de uso, beneficios buscados o nivel de lealtad.',
+        'Percepción que los consumidores tienen de una marca en relación con sus competidores.',
     },
     {
-      termino: 'Segmentación demográfica',
+      termino: 'Publicidad',
       significado:
-        'División de mercados basada en características como edad, género, ingresos o estado civil.',
+        'Actividad de comunicación que busca promover un producto, servicio o idea a través de diversos medios para influir en el comportamiento del público.',
     },
     {
-      termino: 'Segmentación geográfica',
+      termino: 'Redactor',
       significado:
-        'División de mercados, según la ubicación física o características geográficas de los consumidores.',
+        'Profesional que crea textos persuasivos y creativos para anuncios, campañas y contenido publicitario.',
     },
     {
-      termino: 'Segmentación psicográfica',
+      termino: 'ROI (Return on Investment)',
       significado:
-        'Segmentación que estudia los valores, intereses, actitudes y estilo de vida, de los consumidores.',
+        'Métrica que mide el beneficio obtenido en relación con la inversión realizada en una campaña.',
     },
     {
-      termino: 'Sostenibilidad',
+      termino: 'Startups',
       significado:
-        'Capacidad de satisfacer las necesidades presentes sin comprometer los recursos, para generaciones futuras.',
+        'Empresas emergentes con modelos de negocio innovadores, generalmente enfocadas en el crecimiento rápido.',
     },
     {
-      termino: 'Tendencias de consumo',
+      termino: 'Target',
       significado:
-        'Cambios en los hábitos y preferencias de compra, influenciados por factores sociales, culturales y tecnológicos.',
+        'Grupo específico de personas a quienes se dirige una campaña publicitaria.',
     },
     {
-      termino: 'Valor percibido',
+      termino: 'Tasa de conversión',
       significado:
-        'Evaluación subjetiva de los consumidores, sobre los beneficios y costos de un producto o servicio.',
+        'Porcentaje de usuarios que realizan una acción deseada, como una compra o un registro.',
     },
     {
-      termino: 'Variables de segmentación',
+      termino: 'Versatilidad',
       significado:
-        'Factores utilizados para dividir un mercado en segmentos, como demografía, geografía, psicografía y comportamiento.',
+        'Capacidad de adaptarse a diferentes contextos y desafíos con facilidad.',
     },
   ],
 }

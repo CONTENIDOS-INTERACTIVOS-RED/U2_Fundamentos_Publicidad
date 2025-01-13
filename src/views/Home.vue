@@ -22,10 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Comprender el comportamiento del consumidor y la segmentación de mercados es esencial para diseñar estrategias de marketing efectivas que conecten con las necesidades y valores del público objetivo. En esta unidad, se explorarán los factores que influyen en las decisiones de compra, como los aspectos psicológicos, sociales y culturales, junto con métodos avanzados de segmentación que integran inteligencia artificial y análisis predictivo.
+              p.descripcion.mb-4 La publicidad, como herramienta esencial de comunicación comercial, ha evolucionado para satisfacer las demandas del mercado global, integrando procesos organizativos y creativos en las agencias. En esta unidad, se explorarán los roles, estrategias y planificación necesarios para diseñar campañas efectivas, desde la generación de ideas innovadoras hasta su ejecución en medios tradicionales y digitales, destacando su impacto en el fortalecimiento de marcas y el éxito comercial.
 
 
-              p #[b Prepárese para analizar casos prácticos y desarrollar habilidades que te permitirán crear estrategias innovadoras en escenarios reales.]
+              p #[b ¡Prepárese para dominar las estrategias publicitarias que transforman ideas en resultados!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -73,7 +73,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-secundario
+    color: $color-primario
   .home-content
     background-color: white
   .info-section
@@ -148,12 +148,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #6DA4C3 !important
+    background-color: #E93B81 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
     // background-color: #083E61 !important
-    background-color: #3B596A !important
+    background-color: #7F2046 !important
   &:hover
     .icon
       transform: scale(1.06)

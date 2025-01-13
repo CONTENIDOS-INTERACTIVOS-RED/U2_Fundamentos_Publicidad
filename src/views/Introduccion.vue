@@ -1,27 +1,45 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pb-0.mb-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-5.pb-0.mb-5
 
+    p(data-aos="fade-left").mb-4  La publicidad y sus procesos son fundamentales para lograr no solo conectar con los clientes y audiencias sino, además, para que se mantenga la comunicación y las relaciones comerciales en el tiempo. Para que esto sea posible, es necesario entender cómo funcionan las agencias de publicidad, cómo se generan las ideas creativas y cómo se planifican y evalúan las campañas, para que sean eficientes, efectivas y de calidad.
 
     .row.mb-5
 
       .col-lg-7
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          p.mb-0 Paralelamente, las agencias de publicidad son actores importantes en la comunicación enunciada anteriormente, permitiendo entender y atender las necesidades de los clientes, logrando desde la creatividad, ejecutar campañas globales y digitales; pero, para que esto se dé, es necesario que comprendan la planificación estratégica para la gestión efectiva de campañas publicitarias.
 
-        p(data-aos="fade-left").mb-4  El comportamiento del consumidor y la segmentación de mercados, son elementos centrales en el diseño de estrategias de marketing exitosas, puesto que permiten comprender las dinámicas de decisión de los consumidores y cómo responder a sus necesidades específicas. Esta unidad profundiza en los factores que influyen en las decisiones de compra, desde elementos psicológicos y sociales, hasta culturales y personales, proporcionando una visión integral del proceso de decisión del consumidor. La comprensión de estos factores es esencial para adaptar productos y servicios, de manera efectiva, conectando con los valores y expectativas del mercado.
+        p(data-aos="fade-left").mb-4  Por lo tanto, en esta unidad, se explicarán los elementos básicos de las estructuras organizativas dentro de las agencias, el proceso creativo que da vida a los mensajes publicitarios y las estrategias necesarias para planificar campañas que realmente lleguen al público adecuado.
 
-        .bg-color-1.p-4(data-aos="fade-left")
-          p.mb-0 Al combinar criterios tradicionales, como la demografía y la psicografía, con tecnologías digitales, las organizaciones están logrando identificar y priorizar segmentos, con un alto potencial de crecimiento.
       .col-lg-5
           figure
-            img(src="@/assets/curso/intro/1.svg", data-aos="zoom-in").mt-4.mt-lg-0
+            img(src="@/assets/curso/intro/1.png", data-aos="zoom-in").mt-4.mt-lg-0
 
-                
-    .bg-full-width.bg-color-2
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 A lo largo de esta unidad, se analizarán estudios de caso y ejemplos de empresas líderes como Samsung y Apple, ilustrando cómo han implementado estrategias de segmentación y posicionamiento innovadoras, para fortalecer su presencia en mercados claves. De esta manera, los estudiantes no solo adquirirán un conocimiento teórico, sino también habilidades prácticas para aplicar estas estrategias en escenarios reales, contribuyendo al desarrollo de soluciones efectivas y sostenibles en el campo del marketing.
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/intro/2.png", alt="", data-aos="zoom-in")
+      .col-lg-7
+        .py-4.px-5.bg-color-1(data-aos="fade-right").h-100
+          p.mb-0 Del mismo modo, en el entorno empresarial, el proceso creativo publicitario, es un ciclo dinámico que requiere coordinación interdisciplinaria y una visión clara desde el briefing hasta la producción. La aplicación de técnicas creativas y una ejecución cuidadosa, aseguran el éxito de las campañas. Asimismo, la creatividad se convierte en un recurso estratégico para adaptarse a los cambios del mercado, diseñar productos innovadores y establecer conexiones significativas con los clientes. Según Gutiérrez Colmener (2014), su desarrollo es esencial, tanto a nivel individual, como organizacional.
+
+
+    .bg-full-width.bg-fondo-2.mb-4
+
+      .row.justify-content-center.align-items-stretch
+        .col-lg-6(data-aos="zoom-in")
+          img.img-fluid(src='@/assets/curso/intro/3.svg', style="max-width:610px", alt="").mx-auto.mx-lg-0.me-lg-auto.mb-4.mb-lg-0
+
+        .col-lg-5(data-aos="fade-left")
+          .pt-5.pe-5
+            p(data-aos="fade-left").my-4 La planificación estratégica y la elección adecuada de medios, son esenciales para alcanzar los objetivos publicitarios. Desde la definición de metas claras hasta la evaluación de resultados, este proceso combina creatividad y análisis para maximizar el impacto de las campañas.
+
+            p La integración de medios tradicionales y digitales, junto con la medición constante mediante KPIs, garantizan estrategias publicitarias efectivas y adaptables.
+
+    p(data-aos="fade-left").mb-5 Finalmente, es importante entender que una ejecución bien planificada no solo mejora la experiencia del cliente, sino que también maximiza los resultados comerciales, al aprovechar la sinergia entre canales tradicionales y digitales, asegurando que las campañas no solo cumplan con sus objetivos, sino que también brinden un retorno tangible sobre la inversión.
+
+
 </template>
