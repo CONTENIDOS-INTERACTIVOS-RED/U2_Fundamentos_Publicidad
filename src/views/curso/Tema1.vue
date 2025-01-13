@@ -124,30 +124,31 @@
     .bg-full-width.bg-color-info
       .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-10
+          .col-lg-auto
             ImagenInfografica.color-secundario
                 template(v-slot:imagen)
                   figure
-                    img(src="@/assets/curso/tema1/info1.svg", alt="", style="max-width: 622px;").mx-auto
+                    img(src="@/assets/curso/tema1/info1.svg", alt="", style="max-width: 812px;").mx-auto
 
-                .bg-color-white.box-shadow.p-3(x="78%" y="30%" numero="1")
-                  h5 Personalización a gran escala
-                  p El avance de la tecnología, particularmente la inteligencia artificial y el análisis de datos, ha permitido a las empresas personalizar sus ofertas y estrategias, de manera masiva. Herramientas como los algoritmos predictivos y las plataformas digitales, facilitan la creación de experiencias únicas que responden a las preferencias individuales del consumidor.
+                .bg-color-white.box-shadow.p-3(x="65%" y="3%" numero="+")
+                  h5 Creativos publicitarios
+                  p Redactores y directores de arte que trabajan en la concepción y diseño de campañas publicitarias. Su función principal es la de transformar el mensaje, en piezas creativas impactantes.
 
-                  p #[b Ejemplo:] Spotify utiliza datos de consumo para crear listas de reproducción personalizadas como “Discover Weekly”, generando una experiencia individualizada que refuerza la lealtad de los usuarios.
+                .bg-color-white.box-shadow.p-3(x="-3%" y="25%" numero="+")
+                  h5 Cuentas
+                  p Actúan como intermediarios entre la agencia y el cliente, garantizando que las expectativas del cliente se traduzcan en resultados concretos. Tienen un papel estratégico y de comunicación.
 
-                .bg-color-white.box-shadow.p-3(x="78%" y="80%" numero="2")
-                  h5 Marketing digital e inmersivo
-
-                  p La integración de plataformas digitales y tecnologías como la realidad virtual y aumentada, ha transformado la forma en que las marcas interactúan con los consumidores. Estas herramientas no solo aumentan el alcance, sino que también generan experiencias inmersivas que impactan emocionalmente.
-
-                  p #[b Ejemplo:] La marca de cosméticos Sephora, utiliza realidad aumentada en su aplicación “Virtual Artist”, lo que permite a los usuarios probar productos de maquillaje en tiempo real, facilitando la decisión de compra.
-
-                .bg-color-white.box-shadow.p-3(x="23%" y="80%" numero="3")
-                  h5 Ética y sostenibilidad
-                  p El marketing contemporáneo también se enfrenta a la presión de adoptar prácticas responsables y sostenibles. Los consumidores modernos valoran la transparencia, el impacto ambiental reducido y los compromisos sociales, por lo que las empresas han comenzado a incluir estos valores en sus estrategias.
-
-                  p #[b Ejemplo:] Patagonia, conocida por su compromiso ambiental, promueve campañas como “Don’t Buy This Jacket”, alentando a los consumidores a considerar la sostenibilidad, antes de realizar una compra
+                .bg-color-white.box-shadow.p-3(x="103%" y="25%" numero="+")
+                  h5 Planificadores de medios
+                  p Se encargan de analizar y seleccionar los medios más adecuados para las campañas, asegurando la máxima efectividad en el alcance del público objetivo.
+                  
+                .bg-color-white.box-shadow.p-3(x="-3%" y="70%" numero="+")
+                  h5 Planificación estratégica
+                  p Este perfil conecta la investigación de mercado con la creatividad, desarrollando estrategias que guíen las campañas hacia el cumplimiento de los objetivos comerciales y de comunicación.
+                  
+                .bg-color-white.box-shadow.p-3(x="103%" y="70%" numero="+")
+                  h5 Producción
+                  p Aseguran que las ideas creativas se ejecuten con calidad, gestionando recursos y tiempos para la entrega final.
                   
 </template>
 
