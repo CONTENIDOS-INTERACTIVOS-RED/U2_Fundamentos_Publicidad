@@ -150,6 +150,174 @@
                   h5 Producción
                   p Aseguran que las ideas creativas se ejecuten con calidad, gestionando recursos y tiempos para la entrega final.
                   
+
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.2] Agencias y marcas
+
+    p(data-aos="fade-left").mb-5 Comencemos el estudio de esta temática, observando el siguiente video.
+
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/8c6tdN8r0M8?si=Xd8yHHXCFWKPQaSS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
+    p(data-aos="fade-left").mb-5 A continuación, se detalla una comparación entre los tipos de agencias publicitarias, así como también las ventajas y desventajas.
+
+    .titulo-figura.mb-4
+      h5 Tabla 1. 
+      span Según su propósito.
+    .tabla-a.mb-5
+      table
+        thead
+          tr
+            th Tipo de agencia
+            th Enfoque
+            th Tamaño del cliente
+            th Alcance
+            th Ventajas
+            th Descripción
+
+        tbody
+          tr
+            td Grandes redes
+            td Soluciones integrales
+            td Multinacionales
+            td Global
+            td 
+              | - Acceso a recursos globales.
+              br
+              | - Consistencia en mercados diversos.
+              br
+              | - Experiencia comprobada
+            td
+              | - Costos elevados.
+              br
+              | - Falta de personalización.
+              br
+              | - Procesos burocráticos.
+          tr
+            td Boutiques creativas
+            td Creatividad personalizada
+            td Empresas medianas y pequeñas
+            td Local o específico
+            td
+              | - Creatividad y originalidad
+              br
+              | - Relación cercana con clientes
+              br
+              | - Mayor flexibilidad
+            td
+              | - Limitaciones en servicios integrales.
+              br
+              | - Alcance reducido.
+              br
+              | - Recursos limitados.
+          tr
+            td Agencias digitales
+            td Estrategias digitales
+            td Startups y tecnológicas
+            td Digital
+            td
+              | - Adaptación a tendencias digitales
+              br
+              | - Acceso a herramientas avanzadas.
+              br
+              | - Rapidez en ejecución.
+            td
+              | - Enfoque limitado al entorno online.
+              br
+              | - Dificultad para integrar campañas offline.
+              br
+              | - Competencia creciente.
+
+
+
+    h2(data-aos="fade-left").mb-5 Marcas
+
+    h3(data-aos="fade-left").mb-3 Marcas internacionales
+
+    p(data-aos="fade-left").mb-4 A continuación, se enuncian algunos ejemplos de agencias publicitarias, de acuerdo al tipo.
+
+
+    .bg-full-width.bg-fondo-slider
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white(data-aos="zoom-in")
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-1.png")
+            .col-lg-7
+              h5 Grandes redes
+
+              ul.lista-ul
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | Ogilvy & Mather
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | McCann Worldgroup
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | BBDO
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-1.png")
+            .col-lg-7
+              h5 Boutiques creativas
+
+              ul.lista-ul
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | Droga5
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | Wieden+Kennedy
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | David The Agency
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-1.png")
+            .col-lg-7
+              h5 Agencias digitales
+
+              ul.lista-ul
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | VMLY&R
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | R/GA
+                li.mb-2
+                  i.fas.fa-check-circle
+                  | Accenture Interactive
+
+    h3(data-aos="fade-left").mb-3 Marcas nacionales
+
+    p(data-aos="fade-left").mb-4 En Colombia, las grandes redes de agencias publicitarias se destacan por su creatividad y cumplimiento. Algunas de las principales agencias son:
+
+
+    .row.align-items-center.mb-5
+      .col-lg-8
+        p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
+
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          p(numero="1" titulo="DDB Colombia") Reconocida como la agencia más efectiva en Colombia, según los Effie Awards. DDB es una red internacional que trabaja con clientes de alto perfil como Bavaria y Claro, destacándose por campañas innovadoras y efectivas. 
+          p(numero="2" titulo="Sancho BBDO") Es parte de la red internacional BBDO. Su experiencia abarca campañas publicitarias integrales que incluyen medios tradicionales y digitales. 
+          p(numero="3" titulo="Tribal Colombia") Pertenece al grupo DDB y se especializa en estrategias digitales, demostrando liderazgo en la implementación de campañas de #[em marketing] online.
+          p(numero="4" titulo="OMD y Zenith Media") Estas agencias se centran en la planificación de medios y estrategias de comunicación, ofreciendo servicios especializados en la optimización de la inversión publicitaria.
+          p(numero="5" titulo="MullenLowe") Parte del grupo MullenLowe, esta agencia es conocida por su creatividad disruptiva y enfoque en campañas que generan impacto social, además de éxito comercial.
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/12.png", alt="", data-aos="zoom-in").mt-4.mt-lg-0
+
 </template>
 
 <script>
