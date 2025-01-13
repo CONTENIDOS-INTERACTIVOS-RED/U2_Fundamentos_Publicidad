@@ -56,18 +56,18 @@ export default {
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: #F4EBEE
+    background-color: #FDF5E4
   .linea-tiempo-d__item__content__title.active
-    background-color: #9B4467 !important
-    color: #fff
+    background-color: #F1A607 !important
+    color: #000
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: #E0C6D0 !important
+    background-color: #FBE3B3 !important
   .linea-tiempo-d__item__number
-    background-color: #F4EBEE
+    background-color: #FDF5E4
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: #9B4467 !important
-    color: #fff !important
+    background-color: #F1A607 !important
+    color: #000 !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down
