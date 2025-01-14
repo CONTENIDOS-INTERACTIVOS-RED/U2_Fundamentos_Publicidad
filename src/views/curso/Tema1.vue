@@ -121,7 +121,7 @@
     p(data-aos="fade-left").mb-5 Según Selva Ruiz (2019), algunos de los roles destacados en las agencias publicitarias, son:
     
 
-    .bg-full-width.bg-color-info
+    .bg-full-width.bg-color-info.mb-5
       .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto
@@ -242,7 +242,7 @@
     p(data-aos="fade-left").mb-4 A continuación, se enuncian algunos ejemplos de agencias publicitarias, de acuerdo al tipo.
 
 
-    .bg-full-width.bg-fondo-slider
+    .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white(data-aos="zoom-in")
           .row.align-items-center.p-4.p-md-5
@@ -318,6 +318,37 @@
         figure
           img(src="@/assets/curso/tema1/12.png", alt="", data-aos="zoom-in").mt-4.mt-lg-0
 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/51370" target="_blank" rel="noopener noreferrer") Gutiérrez Colmener, A. T. (2014). La creatividad y tu negocio. Bubok Publishing S.L. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69210" target="_blank" rel="noopener noreferrer") Palacios Acero, L. C. (2012). Estrategias de creación empresarial. Ecoe Ediciones. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=R31YYtjsqoM" target="_blank" rel="noopener noreferrer") Plataforma Virtual - Profesionalización. (2018). Unidad 6 - ¿Cómo plantear una campaña de comunicación?
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=ikc40jnAiAY" target="_blank" rel="noopener noreferrer") Poli. (2023). Campañas Publicitarias exitosas
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=u7u9kh17Ch0" target="_blank" rel="noopener noreferrer") Nicolás R Muñoz. (2023). Como CREAR una MARCA QUE IMPACTA - Marcas Que Impactan
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

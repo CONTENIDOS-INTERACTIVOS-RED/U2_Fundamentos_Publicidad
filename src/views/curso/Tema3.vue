@@ -21,12 +21,12 @@
             img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mb-4.mb-lg-0
       
       .bg-full-width.bg-fondo-7.mb-5
-        .px-lg-5
+        .px-lg-5.px-4.py-5.py-lg-0
 
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
 
             .col-lg-7.order-2(data-aos="fade-left")
-              .pt-5
+              .ps-5.ps-lg-0
                 p.mb-1 <b>Específicos (<em>Specific</em>)</b>. Claros y detallados.
                 p.mb-1 <b>Medibles (<em>Measurable</em>)</b>.	Cuantificables para evaluar el éxito.
                 p.mb-1 <b>Alcanzables (<em>Achievable</em>)</b>.	Realistas, según los recursos disponibles.
@@ -74,12 +74,12 @@
                 p.mb-0 Intereses, actitudes, comportamientos.
 
       .bg-full-width.bg-fondo-7.mb-5
-        .px-lg-5
+        .px-lg-5.py-5.py-lg-0.px-4
 
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
 
             .col-lg-7.order-2(data-aos="fade-left")
-              .pt-5
+              .ps-5.ps-lg-0
                 p.text-bold Sin embargo, de acuerdo con las diferentes teorías de la segmentación, existen varios tipos: 
                 p.mb-1 Geográfica.
                 p.mb-1 Demográfica.
@@ -89,14 +89,14 @@
                 p.mb-1 Por comportamiento de compra.
 
 
-            .col-lg-5.order-1(data-aos="zoom-in")
+            .col-8.col-lg-5.order-1
               figure
                 img(src="@/assets/curso/tema3/6.svg", data-aos="zoom-in").mb-4.mb-lg-0
       
       p.mb-5 Dichos tipos se pueden presentar en dos campos esenciales en mercados industriales y de consumidores, donde se pueden aplicar los siguientes pasos, para segmentar correctamente: 
 
       .row.align-items-center.mb-5
-        .col-lg-4
+        .col-lg-4.d-none.d-lg-block
           figure
             img(src="@/assets/curso/tema3/7.png", alt="", data-aos="zoom-in").mt-4.mt-lg-0
         .col-lg-8
@@ -190,7 +190,7 @@
       p.mb-5 Continuemos con la planificación en:
 
       .row.align-items-center.mb-5
-        .col-lg-4.order-2
+        .col-lg-4.order-2.d-none.d-lg-block
           figure
             img(src="@/assets/curso/tema3/13.png", alt="", data-aos="zoom-in").mt-4.mt-lg-0
         .col-lg-8.order-1
@@ -449,7 +449,29 @@
         .p-4.p-md-5
           #Actividad                
             <Actividad :cuestionario="cuestionario"/>
-            
+      
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=k1whJcaMRTA" target="_blank" rel="noopener noreferrer") Brand Inteligente. (2019). Importancia: Público Objetivo | Branding inteligente
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=gsiTt88zLSA" target="_blank" rel="noopener noreferrer") ogallo.studio. (2021). Costos en Publicidad Digital
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=lxGxI-Lcc_M" target="_blank" rel="noopener noreferrer") Adnálisis. (2024). Análisis 26 | H2OH! | Gesticuladores
+                
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

@@ -143,7 +143,7 @@
           
             .col-md-6.col-lg-5.col-xl-4.order-1
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema2/tab-1.png", alt="")
+                img(src="@/assets/curso/tema2/tab-1.png", alt="").mb-4
 
         .tabs-content.border.px-4.p-md-5.py-3(titulo="Brief táctico" :icon="require('@/assets/bullets/icon-tab-c-2.svg')")
           .row
@@ -184,7 +184,7 @@
           
             .col-md-6.col-lg-5.col-xl-4.order-1
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema2/tab-2.png", alt="")
+                img(src="@/assets/curso/tema2/tab-2.png", alt="").mb-4
 
       #t_2_2.titulo-segundo(data-aos="flip-up")
         h2 #[span 2.2] Desarrollo del concepto creativo
@@ -206,12 +206,12 @@
 
 
       .bg-full-width.bg-fondo-2.mb-5
-        .px-lg-5
+        .px-lg-5.pt-5.pt-lg-0
 
-          .row.justify-content-center.align-items-stretch
+          .row.justify-content-center.align-items-center
 
             .col-lg-6(data-aos="fade-left")
-              .pt-5
+              .ps-5.ps-lg-0
                 p.mb-1 #[strong Etapa 1]	Encuentro con la dificultad o problema. 
                 p.mb-1 #[strong Etapa 2]	Localización y definición del problema. 
                 p.mb-1 #[strong Etapa 3]	Planteamiento de posibles soluciones. 
@@ -220,7 +220,7 @@
 
 
             .col-lg-4(data-aos="zoom-in")
-              img.img-fluid(src="@/assets/curso/tema2/9.svg", style="max-width:295px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
+              img.img-fluid(src="@/assets/curso/tema2/9.svg", style="max-width:295px", alt="").mx-auto.mx-lg-0.ms-lg-auto.mt-4.mt-lg-0
 
       p(data-aos="fade-left") Es así como, desde diferentes autores, se ha concluido que la creatividad parte de un problema, para poderle dar solución al mismo; Gutiérrez Colmener (2014), relaciona que, con relación a la empresa, las áreas que se deben explorar para identificar problemas, son: 
 
@@ -364,6 +364,32 @@
 
 
       //emPIEZA AQUI
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/58523?page=24" target="_blank" rel="noopener noreferrer") ¿Cómo desarrollar ideas publicitarias creativas? Editorial UOC.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/172965?page=28" target="_blank" rel="noopener noreferrer") Guilera, L. & Garrell, A. (2021). Productos y servicios inteligentes y sostenibles: técnicas para la innovación y la creatividad. Marge Books.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=RMgxUn3dp-Y" target="_blank" rel="noopener noreferrer") Don Scrapp | Aprendizaje Creativo. (2020). CÓMO HACER UN BRIEF x Jael Preciat PT1 @ DE CERO A NINJA
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=Pm298G5QCMU" target="_blank" rel="noopener noreferrer") El Blog De Raffo. (2020). Brief y Tipos de Brief 
+                
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
