@@ -3,7 +3,7 @@
     BannerInterno(:subTitulo="'2. El proceso creativo publicitario: desde el <em>briefing</em> hasta la ejecución'")
     .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.overflow-hidden
   
-      p(data-aos="fade-left").mb-5 En esta primera parte, conoceremos los conceptos básicos de la publicidad y sus principales objetivos.
+      p(data-aos="fade-left").mb-5 A continuación, comenzaremos el estudio conociendo qué es el <em>briefing</em> publicitario.
   
 
       #t_2_1.titulo-segundo(data-aos="flip-up")
@@ -324,7 +324,7 @@
                 p Consiste en invertir supuestos o planteamientos, para explorar nuevas posibilidades y soluciones.
       
       
-      p(data-aos="fade-left") Estas técnicas, entre otras, son fundamentales para impulsar la innovación y la creatividad en el desarrollo de productos y servicios inteligentes y sostenibles.cnicas para fomentar la creatividad en el desarrollo de productos y servicios, entre las cuales se pueden enunciar: 
+      p(data-aos="fade-left") Estas técnicas, entre otras, son fundamentales para impulsar la innovación y la creatividad en el desarrollo de productos y servicios inteligentes y sostenibles.
 
       .row.justify-content-center.align-items-stretch.mb-5
         .col-lg-8

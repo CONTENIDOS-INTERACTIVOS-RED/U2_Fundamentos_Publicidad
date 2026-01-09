@@ -124,8 +124,30 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Medina, A. (2016). <em>El futuro de la comunicación: píldoras de publicidad, marketing y medios digitales</em>. Ediciones Pirámide.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115583',
+    },
+    {
+      referencia:
+        'Selva Ruiz, D. (2019). <em>Especies publicitarias: perfiles profesionales en las agencias</em>. Editorial UOC.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/117586',
+    },
+    {
+      referencia:
+        'Coll Rubio, P. & Micó Sanz, J. L. (2018). <em>Estrategias de publicidad y relaciones públicas en la era digital: los casos de estudio de Wallapop, Westwing y Fotocasa</em>. Editorial UOC.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/105395?page=27',
+    },
+    {
+      referencia:
+        'Kotler, P. (2024). <em>Marketing empresarial: más allá del profesionalismo, hacia la creatividad, el liderazgo y la sostenibilidad</em>. Ediciones Granica.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/267031',
+    },
+    {
+      referencia:
+        'Roig, F. A. (2022). <em>La publicidad moderna: De Bretton Woods a la era digital, 1945-1995</em>. Ediciones Infinito.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/218583',
     },
   ],
   glosario: [

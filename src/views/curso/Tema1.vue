@@ -306,7 +306,6 @@
 
     .row.align-items-center.mb-5
       .col-lg-8
-        p(data-aos="fade-left") El enfoque colaborativo tiene múltiples beneficios en la resolución de conflictos:
 
         LineaTiempoD.color-primario.large(data-aos="fade-left")
           p(numero="1" titulo="DDB Colombia") Reconocida como la agencia más efectiva en Colombia, según los Effie Awards. DDB es una red internacional que trabaja con clientes de alto perfil como Bavaria y Claro, destacándose por campañas innovadoras y efectivas. 
